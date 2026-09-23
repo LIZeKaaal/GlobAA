@@ -4,6 +4,9 @@ This file records the sources and licenses of code and data included in GlobAA.
 The root [LICENSE](LICENSE) contains Apache-2.0. Third-party material retains
 its original attribution and applicable license terms.
 
+Copyright (c) 2026 lizekai (original contributions and modifications only).
+Date: 2026-09-23.
+
 ## AndersonAcceleration
 
 - Project: [yangliu-op/AndersonAcceleration](https://github.com/yangliu-op/AndersonAcceleration)
