@@ -1,0 +1,35 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor history and machine-specific settings
+.history/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local plotting cache and exploratory outputs
+/.matplotlib/
+/scratch/
+
+# Keep published datasets, CSV/NPZ results, PDFs, and run configurations.

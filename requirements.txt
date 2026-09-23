@@ -1,0 +1,7 @@
+# Direct dependencies for the reference Python 3.9.18 / macOS ARM64 environment.
+# Use CPU computation and float64 for the documented experiments.
+numpy==1.26.3
+scipy==1.11.4
+torch==2.8.0
+matplotlib==3.7.5
+scikit-fem==11.0.0

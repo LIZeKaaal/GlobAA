@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "history_filename": "ns_main_history.csv",
+  "summary_filename": "ns_main_summary.csv",
+  "final_states_filename": "ns_final_states.npz",
+  "m_values": [
+    10,
+    20,
+    30,
+    50
+  ],
+  "max_iters": 100,
+  "func_eval_max": 303,
+  "tol": 1e-10,
+  "global_lambda": 0.5,
+  "global_gamma_strategy": "paper_window",
+  "global_gamma_formula": "1-max{1/(k+2), W_k/(2W_0)}",
+  "common_initial_point": "G(0)",
+  "common_picard_initialization": true,
+  "common_initialization_time": 15.353620332999999,
+  "algorithm_times_include_common_initialization": false,
+  "algorithm_iterations_include_common_initialization": false,
+  "base_points": 100,
+  "re": 10000.0,
+  "grad_div": 1.0,
+  "edge_width": 0.1,
+  "refine_edges": true,
+  "quadrature_order": 6,
+  "velocity_dofs": 169194,
+  "pressure_dofs": 21348,
+  "mixed_dofs": 190542,
+  "mesh_vertices": 21348,
+  "mesh_triangles": 41902,
+  "marked_elements": 7120,
+  "algorithms": [
+    {
+      "key": "picard",
+      "label": "Picard",
+      "kind": "picard",
+      "eta": 0.0,
+      "cs": null,
+      "kappa_bar": 100000000.0
+    },
+    {
+      "key": "aa_pure",
+      "label": "AA_pure",
+      "kind": "aa",
+      "eta": 0.0,
+      "cs": null,
+      "kappa_bar": 100000000.0
+    },
+    {
+      "key": "global_eta0",
+      "label": "GlobalAndersonSolver",
+      "kind": "global",
+      "eta": 0.0,
+      "cs": null,
+      "kappa_bar": 100000000.0
+    },
+    {
+      "key": "global_eta1e10",
+      "label": "GlobalAndersonSolver eta=1e-10",
+      "kind": "global",
+      "eta": 1e-10,
+      "cs": null,
+      "kappa_bar": 100000000.0
+    },
+    {
+      "key": "faa02",
+      "label": "FAA cs=0.2",
+      "kind": "faa",
+      "eta": 0.0,
+      "cs": 0.2,
+      "kappa_bar": 100000000.0
+    },
+    {
+      "key": "faa0707",
+      "label": "FAA cs=1/sqrt(2)",
+      "kind": "faa",
+      "eta": 0.0,
+      "cs": 0.7071067811865475,
+      "kappa_bar": 100000000.0
+    }
+  ]
+}
