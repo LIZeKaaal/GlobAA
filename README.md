@@ -6,6 +6,19 @@ Sections 3.1–3.4 of the accompanying paper and cover a fixed-point
 counterexample, elastic-net regression solved with ISTA, a nonlinear Helmholtz
 problem, and a Navier–Stokes cavity problem.
 
+## Associated paper
+
+**Title:** *A Nonmonotone Globalization Framework for Anderson Acceleration
+for Contractive and Nonexpansive Fixed Point Problems*.
+
+**Authors:** Wei Bian and Zekai Li.
+
+This repository provides reproducibility materials for the paper: source code,
+input data, parameter settings, saved numerical results, and plotting scripts.
+The instructions below explain how to set up the environment, reproduce the
+numerical experiments in Sections 3.1–3.4, and regenerate the figures from the
+supplied results.
+
 Maintainer: **lizekai**.
 
 ## Repository layout
