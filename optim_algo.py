@@ -218,6 +218,7 @@ def AndersonAcc(obj, x0, m, lamda, L, mainLoopMaxItrs, funcEvalMax, gamma,
                         xType = 'Picard'
                         acc.replace(x) # 
                         RAA = 0
+                        safeg = True
                 else:
                     x = xn
                     nAA = nAA + 1
